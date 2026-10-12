@@ -96,5 +96,5 @@ We may periodically update this Privacy Policy to reflect app updates or regulat
 If you have questions, feedback, or inquiries regarding this Privacy Policy or your privacy while using Art Camera, please contact us at:
 
 - **Developer:** Harmil Goti (OcenSoft)
-- **Email:** support@ocensoft.com
+- **Email:** ocensoft@gmail.com
 - **GitHub Repository:** [https://github.com/harmil007/art-camera](https://github.com/harmil007/art-camera)
