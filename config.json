@@ -1,0 +1,23 @@
+
+{
+  "minRequiredVersion": "1.0.0",
+  "title": "📸 Discover Your Creative Side",
+  "message": "✨ Explore artistic camera effects, capture stunning portraits, and discover beautiful wallpapers. Update now for the latest improvements!",
+  "adsEnabled": {
+    "banner": true,
+    "interstitial": true,
+    "rewarded": true
+  },
+  "interstitial": {
+    "levelsBetweenAds": 4,
+    "minimumCooldownSeconds": 180
+  },
+  "rewarded": {
+    "dailyLimit": 5
+  },
+  "internetRequired": false,
+  "storeUrls": {
+    "android": "https://play.google.com/store/apps/details?id=com.ocensoft.artcamera",
+    "ios": ""
+  }
+}
