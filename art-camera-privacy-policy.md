@@ -1,15 +1,15 @@
-# Privacy Policy for Art Camera & Cartoon Studio
+# Privacy Policy for Camera Pro
 
-**Last Updated:** October 12, 2026  
-**Effective Date:** October 12, 2026  
+**Last Updated:** October 14, 2026  
+**Effective Date:** October 14, 2026  
 **Developer / Publisher:** OcenSoft (Harmil Goti)  
-**Application:** Art Camera & Cartoon Studio (`com.ocensoft.artcamera`)
+**Application:** Camera Pro (`com.ocensoft.camerapro`)
 
 ---
 
 ## 1. Introduction & Core Privacy Promise
 
-At **OcenSoft**, we believe your creative photography and personal moments belong strictly to you. **Art Camera & Cartoon Studio** is architected from the ground up as a **privacy-first, on-device computational photography application**.
+At **OcenSoft**, we believe your creative photography and personal moments belong strictly to you. **Camera Pro** is architected from the ground up as a **privacy-first, on-device computational photography application**.
 
 > **Our Fundamental Promise:**  
 > All neural segmentation, AI portrait depth calculations, cartoon shaders, and image processing happen **100% locally on your device**. We do **not** upload, store, transmit, analyze, or share your photos or biometric facial information with external servers, cloud providers, or third parties.
@@ -36,13 +36,17 @@ For further details on how Google processes ad data, please refer to:
 
 ## 3. Permissions Requested & How They Are Used
 
-Art Camera only requests operating system permissions strictly required for core functionality:
+Art Camera strictly adheres to the principle of minimum privilege and only requests permissions necessary for core photography features:
 
 | Permission | Technical Name | Purpose |
 | :--- | :--- | :--- |
-| **Camera** | `android.permission.CAMERA` | Required to provide the live camera viewfinder, switch lenses, and capture photos. |
-| **Media Library / Storage** | `android.permission.READ_MEDIA_IMAGES` / `WRITE_EXTERNAL_STORAGE` | Required when you choose to export, download, or save captured photos to your phone's photo gallery. |
+| **Camera** | `android.permission.CAMERA` | Required to provide the live camera viewfinder, switch optical/digital lenses, and capture photos. |
+| **Photos & Media** | `android.permission.READ_MEDIA_IMAGES`, `READ_MEDIA_VISUAL_USER_SELECTED` | Required on Android 13+ when you choose to open, preview, or manage photos in your gallery. |
+| **Legacy Storage** | `android.permission.READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE` (maxSdkVersion="32") | Required strictly on Android 12 and earlier to save captured photos to your device gallery. |
 | **Internet & Network State** | `android.permission.INTERNET`, `ACCESS_NETWORK_STATE` | Used solely to retrieve updated remote configuration rules (ad frequency limits, version checks) and serve non-intrusive advertisements. |
+| **Haptic Feedback** | `android.permission.VIBRATE` | Provides subtle tactile feedback when adjusting camera dials, aperture stops, and pro sliders. |
+
+> **Privacy Safeguard:** Art Camera does **not** request or use microphone audio access (`RECORD_AUDIO`), audio media access (`READ_MEDIA_AUDIO`), or overlay permissions (`SYSTEM_ALERT_WINDOW`) in production.
 
 ---
 
@@ -73,25 +77,38 @@ We do **not** sell, rent, trade, or transfer your personal data to any external 
 
 ---
 
-## 7. Children's Privacy (COPPA & GDPR Compliance)
+## 7. AI Ethics, Synthetic Media & Legal Compliance (IT Rules, 2021)
+
+In strict adherence to Google Play's Generative AI & Synthetic Media Policies and Rule 3(1)(b) of the **Indian Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (as amended)**:
+
+1. **No Deepfakes or Identity Impersonation:**  
+   Art Camera's neural models run strictly on-device for portrait depth segmentation (distinguishing subject from background for optical bokeh) and shader stylization (cartoon lines, color quantization). The app does **not** generate face-swaps, voice synthesis, digital clones, or synthetic impersonations of any individual.
+2. **Prohibition of Unlawful Synthetic Content:**  
+   Users are strictly prohibited from utilizing Art Camera to generate, alter, or publish any unlawful synthetic content, including but not limited to non-consensual intimate imagery (NCII), deceptive deepfakes, defamatory depictions, or material that infringes upon personal privacy or statutory regulations.
+3. **100% Local Execution & User Custody:**  
+   Because all image modifications occur in real time inside local device RAM without cloud transmission, users maintain complete custody, ownership, and legal accountability for all photographic creations and exports.
+
+---
+
+## 8. Children's Privacy (COPPA & GDPR Compliance)
 
 Art Camera does not knowingly collect, request, or solicit personal data from children under the age of 13 (or under 16 in the European Union). Because our computational photography pipeline runs entirely offline on your hardware, no children's data is ever gathered or stored.
 
 ---
 
-## 8. Security
+## 9. Security
 
 We take the security of your data seriously. By keeping all neural processing offline and on-device, your photos are never exposed to transmission vulnerabilities or external cloud data breaches.
 
 ---
 
-## 9. Changes to This Privacy Policy
+## 10. Changes to This Privacy Policy
 
 We may periodically update this Privacy Policy to reflect app updates or regulatory requirements. Any modifications will be posted with an updated "Last Updated" date. Continued use of Art Camera after revisions constitutes acceptance of the updated policy.
 
 ---
 
-## 10. Contact Us
+## 11. Contact Us
 
 If you have questions, feedback, or inquiries regarding this Privacy Policy or your privacy while using Art Camera, please contact us at:
 
